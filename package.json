@@ -1,0 +1,25 @@
+{
+  "name": "next-api-test",
+  "version": "1.0.0",
+  "description": "a next.js application for testing api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murillodominguez/next-js-api-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murillodominguez/next-js-api-test/issues"
+  },
+  "homepage": "https://github.com/murillodominguez/next-js-api-test#readme",
+  "dependencies": {
+    "next": "^15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
