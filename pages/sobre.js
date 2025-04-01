@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import {Header} from './index';
+import Header from './index';
 
 function Sobre() {
     return <div><Header title="Sobre"></Header>
