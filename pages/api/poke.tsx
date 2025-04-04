@@ -1,9 +1,12 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-async function tempo(request: NextApiRequest, response: NextApiResponse) {
+async function pokemon(request: NextApiRequest, response: NextApiResponse) {
     const uri = 'https://pokeapi.co/api/v2/pokemon/'+request.body
     let poke = await fetch(uri)
+
     .then(response => response.json()).catch(exception => 'Not Found')
+    console.log(uri)
+    // console.log(poke)
     response.json({
         poke
     })
@@ -12,4 +15,4 @@ async function tempo(request: NextApiRequest, response: NextApiResponse) {
     // response.setHeader('Cache-Control', 's-maxage=10, stale-while-revalidate');
 }
 
-export default tempo;
+export default pokemon;
